@@ -1,0 +1,635 @@
+/* Reset and Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    height: 40px;
+}
+
+.logo img{
+   width: 100%;
+   height: auto;
+   color: white;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    padding: 2px;
+}
+
+.nav-add {
+    color: white;
+    
+}
+
+.one {
+    color: #cccccc;
+    font-size: 0.8rem;
+    
+}
+
+.add-icon {
+    color: white;
+    font-weight: 700;
+    display: flex;
+}
+
+
+.search {
+    display: flex;
+    width: 600px;
+    height: 35px;
+    background-color: rgb(255, 204, 0);
+    border: none;
+    border-radius: 4px;
+   
+}
+
+.all {
+    background-color: #e3d7d7;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.allsecond {
+    width: 520px;
+    font-size: 1rem;
+    border: none;
+    border: 1px solid white;
+}
+
+.iconposition {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search:hover {
+    border: 3px solid orange;
+}
+.lang{
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.lang p i{
+    color: #a7acb2;
+    margin: 6px 0 0 2px;
+}
+.lang img{
+    width: 16px;
+    height: auto;
+}
+.Hello {
+    color: white;
+}
+
+.Hello span {
+    font-size: 0.75rem;
+}
+
+.helloaccount {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.cart {
+    color: white;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+/* Menubar styles */
+.Menubar {
+    height: 39px;
+    width: 100%;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Menu {
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+   display: flex;
+   gap: 2px;
+
+}
+
+.fre {
+    color: white;
+    background-color: #222f3d;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.panel {
+    display: flex;
+}
+
+.panel p {
+    display: inline-block;
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+}
+
+/* Hero section styles */
+/* .hero {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+} */
+ .left,.right{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background-color: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid rgb(16, 16, 201);
+ }
+ .right{
+    right: 10px;
+
+ }
+ .left{
+    left: 10px;
+ }
+ .scroll{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    overflow-y: hidden;
+    width: 100%;
+
+ }
+ .scroll img{
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+    width: 100%;
+    height: auto;
+ }
+.hero {
+    position: relative;
+    width: 100%;
+    height: 650px; /* Full viewport height */
+    overflow: hidden;
+     /* Ensure no overflow */
+}
+
+
+.hero1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 2rem;
+    position: absolute;
+    top: 18rem;
+    left: 10rem;
+    color: black;
+    padding: 25px;
+    z-index: 10;
+}
+.hero1 a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.hero1 a:hover {
+    text-decoration: underline;
+}
+
+/* Row styles */
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c2c2c2;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    
+}
+
+.whole {
+    width: 98%;
+    min-height: 18rem;
+    background-color: white;
+    color: white;
+    position: relative;
+    top: -3rem;
+    bottom: -10rem;
+    margin-top: -7rem;
+    
+}
+.whole h2{
+    color: #0f1111;
+    
+}
+.whole p{
+    color: #007185;
+    margin: 6px;
+}
+.whole1{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    gap: 15px;
+    margin: 10px;
+}
+ .whole2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.2px;
+    
+ }
+.whole img {
+    height: 14rem;
+    margin-top: 2rem;
+}
+
+.box {
+    height: 370px;
+    width: 24%;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    top: -200px;
+    border: none;
+}
+
+.box h2 {
+    margin-top: 1rem;
+}
+
+.box img {
+    height: 280px;
+    width: 90%;
+    margin-top: 1rem;
+    display: block;
+    margin-left: 1rem;
+}
+
+.box a {
+    color: #007185;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Footer styles */
+.panel-bar1 {
+    background-color: #37455a;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.panel-bar2 {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+ul {
+    margin: 3rem;
+}
+
+ul p {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+}
+
+ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.panel-bar3 {
+    background-color: #222f3d;
+    min-height: 6rem;
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.panel-logo {
+    background-image: url("assests/amazon_logo.png");
+    background-size: cover;
+    min-width: 10rem;
+    min-height: 4rem;
+}
+
+.panel-bar4 {
+    background-color: #0f1111;
+    width: 100%;
+    min-height: 5rem;
+    padding: 1rem;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
+
+.copy a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+    font-size: 12px;
+}
+
+.copy1 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copy2:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1440px) {
+    .box {
+        width: 23%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .box {
+        width: 32%; 
+        top: -300px;
+    }
+    .scroll img{
+        width: 100%;
+        height: auto;
+        display: block;
+       
+    }
+    .hero1{
+        position: absolute;
+        top: 15rem;
+        left: 8rem;
+        padding: 2rem;
+    }
+    .panel-bar2 {
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;}
+    .footer{
+        width: 25%;
+
+    }
+    .all{
+        width: 35px;
+        font-size: 14px;
+    }
+    .search{
+       width: 250px;
+       height:30px;
+    }
+    .allsecond{
+        width: 180px;
+        font-size: 0.9rem;
+    }
+    .iconposition{
+        width: 35px;
+    }
+}
+@media (max-width: 768px) {
+    .box {
+        width: 46%;
+        position: relative;
+        top: -250px;
+    }
+    .scroll img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .hero1{
+        position: absolute;
+        top: 17rem;
+        left: 5rem;
+    }
+    panel-bar2 {
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;}
+    .footer{
+        width: 50%;
+        
+    }
+    .all{
+        width: 30px;
+        font-size: 8px;
+    }
+    .search{
+       width: 150px;
+       height:25px;
+    }
+    .allsecond{
+        width: 90px;
+        font-size: 0.7rem;
+    }
+    .iconposition{
+        width: 30px;
+    }
+    .helloaccount,.hello span{
+        font-size: 10px;
+    }
+    .logo{
+        width: 70px;
+        height: 50px;
+    }
+    .icon{
+        width: 70px;
+    }
+    .one,.two{
+        font-size: 10px;
+    }
+    .cart{
+        font-size: 14px;
+    }
+    
+    .fre{
+        font-size: 0.6rem;
+    }
+    .panel p{
+        font-size: 0.6rem;
+    }
+    .Menu{
+        font-size: 0.5rem;
+    }
+    .Menubar{
+        font-size: 0.5rem;
+    }
+    .lang img{
+        width: 12px;
+    }
+    .lang p{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .box {
+        width: 95%; 
+        position: relative;
+        top:-220px;
+      
+    }
+    .scroll img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .hero1{
+        position: absolute;
+        top: 17rem;
+        left: 1.5rem;
+        padding: 2.5rem;
+        width: 90%;
+    }
+    .panel-bar2 {
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    
+}
+.whole{
+    margin-top: auto;
+}
+.all{
+    width: 30px;
+    font-size: 8px;
+}
+.search{
+   width: 110px;
+   height: 30px;
+   height: 17px;
+}
+.allsecond{
+    width: 50px;
+    font-size: 0.5rem;
+}
+.iconposition{
+    width: 30px;
+}
+.helloaccount,.hello span{
+    font-size: 6px;
+}
+
+.logo{
+    width:50px;
+    height:auto;
+}
+.icon{
+    width: 50px;
+    margin-top: 1rem;
+}
+.add-icon i{
+    font-size: 6px;
+}
+.one,.two{
+    font-size: 6px;
+}
+.cart{
+    font-size: 8px;
+}
+.cart i{
+    font-size: 10px;
+}
+.Menubar{
+    font-size: 0.4rem;
+}
+.Menu{
+    font-size: 0.5rem ;
+}
+.fre{
+    font-size: 0.4rem;
+}
+.panel p{
+    font-size: 0.4rem;
+}.lang p{
+    font-size: 8px;
+
+}
+.font{
+    font-size: 8px;
+}}
